@@ -1,7 +1,8 @@
 #trigger
 on: push
-  jobs:
-    firstjob:
+jobs:
+    first-job:
       runs-on: windows-latest
+      steps:
         - run: node --version
         - run: npm --version
