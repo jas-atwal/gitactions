@@ -1,0 +1,7 @@
+#trigger
+on: push
+  jobs:
+    firstjob:
+      runs-on: windows-latest
+        - run: node --version
+        - run: npm --version
